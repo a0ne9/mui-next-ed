@@ -1,0 +1,35 @@
+@use "../../styles/rem" as *;
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: rem(10vh);
+	width: 100%;
+	background-color: var(--deep-purple);
+	border-bottom: rem(2px) solid var(--deep-purple);
+	border-bottom-left-radius: rem(10px);
+	border-bottom-right-radius: rem(10px);
+	padding: rem(0 24px);
+	position: sticky;
+}
+
+.h3 {
+	color: var(--white);
+	font-size: rem(30px);
+	font-weight: bold;
+}
+
+.mainLink {
+	color: var(--white);
+	text-decoration: none;
+	font-size: rem(40px);
+	font-weight: bold;
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
+
+	&:hover {
+		opacity: 0.8;
+		text-decoration: underline;
+	}
+}

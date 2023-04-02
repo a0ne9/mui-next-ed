@@ -1,0 +1,93 @@
+@use "src/styles/colors" as *;
+@use "src/styles/fonts" as *;
+@import "src/styles/rem";
+
+:root {
+	--text-color-default: #{$black};
+	--bg-default: #{$white};
+	--font-family-default: "Proxima Nova", sans-serif;
+
+	--white: #{$white};
+	--white-2: #{$white-2};
+	--white-3: #{$white-3};
+	--black: #{$black};
+	--black-05: #{$black-05};
+	--persian-red: #{$persian-red};
+	--red-015: #{$red-015};
+	--gray-1: #{$gray-1};
+	--gray-2: #{$gray-2};
+	--gray-005: #{$gray-005};
+	--gray-light: #{$gray-light};
+	--mandarin: #{$mandarin};
+	--mandarin-015: #{$mandarin-015};
+	--red-03: #{$red-03};
+	--ruby-red: #{$ruby-red};
+	--green: #{$green};
+	--green-015: #{$green-015};
+	--deep-purple: #{$deep-purple};
+
+	// text
+	--text-size-s64: #{rem(64px)};
+	--text-size-s36: #{rem(36px)};
+	--text-size-s34: #{rem(34px)};
+	--text-size-s32: #{rem(32px)};
+	--text-size-s30: #{rem(30px)};
+	--text-size-s28: #{rem(28px)};
+	--text-size-s26: #{rem(26px)};
+	--text-size-s24: #{rem(24px)};
+	--text-size-s22: #{rem(22px)};
+	--text-size-s20: #{rem(20px)};
+	--text-size-s18: #{rem(18px)};
+	--text-size-s16: #{rem(16px)};
+	--text-size-s14: #{rem(14px)};
+	--text-size-s12: #{rem(12px)};
+	--text-size-s10: #{rem(10px)};
+	--text-size-s8: #{rem(8px)};
+	--text-line-height-lh78: #{rem(78px)};
+	--text-line-height-lh48: #{rem(48px)};
+	--text-line-height-lh46: #{rem(46px)};
+	--text-line-height-lh44: #{rem(44px)};
+	--text-line-height-lh42: #{rem(42px)};
+	--text-line-height-lh40: #{rem(40px)};
+	--text-line-height-lh38: #{rem(38px)};
+	--text-line-height-lh36: #{rem(36px)};
+	--text-line-height-lh34: #{rem(34px)};
+	--text-line-height-lh32: #{rem(32px)};
+	--text-line-height-lh30: #{rem(30px)};
+	--text-line-height-lh28: #{rem(28px)};
+	--text-line-height-lh26: #{rem(26px)};
+	--text-line-height-lh24: #{rem(24px)};
+	--text-line-height-lh22: #{rem(22px)};
+	--text-line-height-lh20: #{rem(20px)};
+	--text-line-height-lh18: #{rem(18px)};
+	--text-line-height-lh16: #{rem(16px)};
+	--text-line-height-lh14: #{rem(14px)};
+	--text-line-height-lh12: #{rem(12px)};
+	--text-line-height-lh10: #{rem(10px)};
+}
+
+body {
+	height: 100%;
+	min-height: 100vh;
+	color: var(--text-color-default);
+	background: var(--white);
+	font-family: inherit;
+}
+
+html {
+	height: 100%;
+	box-sizing: border-box;
+	color: var(--text-color-default);
+	font-family: var(--font-family-default);
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+	font-family: inherit;
+}
+
+#__next {
+	height: 100%;
+}

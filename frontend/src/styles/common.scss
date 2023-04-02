@@ -1,0 +1,7 @@
+@mixin hoverBackgroundAnimate {
+  transition: background-color 0.1s ease-in, color 0.1s ease-in;
+}
+
+@mixin hoverColorAnimate {
+  transition: color 0.1s ease-in, color 0.1s ease-in;
+}

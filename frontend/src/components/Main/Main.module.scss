@@ -1,0 +1,8 @@
+@use "../../styles/rem" as *;
+
+.main {
+	min-height: rem(90vh);
+	display: flex;
+	flex-direction: column;
+	padding: rem(35px);
+}

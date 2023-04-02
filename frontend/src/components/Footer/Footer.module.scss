@@ -1,0 +1,24 @@
+@use "../../styles/rem" as *;
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: rem(10vh);
+	background-color: var(--deep-purple);
+	padding: rem(0 24px);
+	position: sticky;
+}
+
+.link {
+	color: var(--white);
+	text-decoration: none;
+	font-size: rem(30px);
+
+	&:hover {
+		opacity: 0.8;
+		font-size: rem(40px);
+	}
+
+	transition: all 0.2s ease-in-out;
+}
