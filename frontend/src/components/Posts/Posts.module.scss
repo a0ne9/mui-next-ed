@@ -1,0 +1,37 @@
+@use "../../styles/rem" as *;
+.cardContainer {
+    margin: rem(10px) auto;
+    width: rem(80%);
+    display: flex;
+    justify-content: center;
+}
+
+.paginationContainer {
+    display: flex;
+    justify-content: center;
+    margin: rem(25px) auto;
+}
+
+.allPages.activePage {
+    cursor: default;
+    border: rem(2px) solid var(--deep-purple-light);
+    color: var(--black);
+    &:hover {
+        color: var(--black) ;
+    }
+}
+
+.allPages {
+    transition: 0.2s ease-in-out;
+    &:hover {
+        background-color: var(--deep-purple-light) ;
+        color: var(--white) ;
+        transform: scale(1.15); 
+    }
+}
+.allPages.hiddenPages {
+    background-color: transparent;
+    &:hover {
+        color: var(--black) ;
+    }
+}

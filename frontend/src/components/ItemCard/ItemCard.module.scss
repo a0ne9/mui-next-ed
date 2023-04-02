@@ -1,0 +1,27 @@
+@use "../../styles/rem" as *;
+
+.cardBody {
+    border: rem(2px) solid var(--deep-purple);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: rem(450px);
+    border-radius: rem(15px);
+    transition: 0.2s ease-in-out;
+    &:hover {
+        background-color: var(--deep-purple-light);
+        color: var(--white);
+        .buttonGoTo {
+            background-color: var(--white);
+            color: var(--deep-purple);
+        }
+    }
+}
+
+
+.buttonGoTo {
+    width: 80%;
+    margin: rem(0) auto rem(15px) auto;
+   
+}
