@@ -59,6 +59,20 @@ const Navbar: React.FC = () => {
 				>
 					Home
 				</MenuItem>
+				<MenuItem
+					onClick={() => {
+						handleClose(NavUrls.SignUp);
+					}}
+				>
+					Sign up
+				</MenuItem>
+				<MenuItem
+					onClick={() => {
+						handleClose(NavUrls.SignIn);
+					}}
+				>
+					Sign in
+				</MenuItem>
 			</Menu>
 		</div>
 	);

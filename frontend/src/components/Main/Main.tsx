@@ -7,6 +7,7 @@ const Main: React.FC = () => {
 	return (
 		<PageLayout>
 			<section className={styles.main}>
+				<div className={styles.image}></div>
 				<HomeInfo />
 			</section>
 		</PageLayout>

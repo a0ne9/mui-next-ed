@@ -8,10 +8,15 @@
 	align-items: center;
 	justify-content: center;
 	margin: 0 auto;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: rem(20px);
+	color: var(--white);
+	padding: rem(20px);
 }
 .h1 {
-	font-size: rem(40px);
+	font-size: rem(55px);
 }
 .h2 {
-	font-size: rem(30px);
+	font-size: rem(40px);
 }
