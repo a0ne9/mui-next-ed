@@ -1,0 +1,18 @@
+.userAvatarContainer {
+	position: relative;
+}
+.userAvatar {
+	width: 400px;
+	border-radius: 30px;
+}
+
+.iconButtonShowVariants {
+	position: absolute;
+	right: 0%;
+	bottom: 5%;
+	background-color: black;
+}
+
+.avatarListVariants {
+	background-color: var(--white);
+}

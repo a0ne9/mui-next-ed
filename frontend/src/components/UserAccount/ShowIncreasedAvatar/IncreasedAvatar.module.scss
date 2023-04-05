@@ -1,0 +1,43 @@
+.increasedAvatarDiv {
+	position: absolute;
+	height: 90vh;
+	width: 100vw;
+	top: 0;
+	z-index: 999;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	animation: emergence 0.5s ease-in-out;
+}
+.increasedAvatarContainer {
+	display: flex;
+	justify-content: center;
+	gap: 0;
+}
+
+.increasedAvatarImg {
+	border-radius: 35px;
+	width: 80%;
+	box-shadow: 0px 0 100px 0px var(--black);
+}
+
+.disappearingDiv {
+	animation: disappearance 0.5s ease-in-out;
+	z-index: 999;
+	position: absolute;
+}
+
+@keyframes emergence {
+	from {
+		transform: scale(0.5);
+		opacity: 0;
+	}
+	to {
+		transform: scale(1);
+	}
+}
+@keyframes disappearance {
+	to {
+		opacity: 0;
+	}
+}
